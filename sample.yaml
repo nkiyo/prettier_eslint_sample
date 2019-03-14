@@ -17,71 +17,71 @@ YAML Resources:
 
 Projects:
   C/C++ Libraries:
-  - libyaml            # "C" Fast YAML 1.1
-  - libcyaml           # YAML de/serialization of C data structures (using libyaml)
-  - Syck               # (dated) "C" YAML 1.0
-  - yaml-cpp           # C++ YAML 1.2 implementation
+    - libyaml # "C" Fast YAML 1.1
+    - libcyaml # YAML de/serialization of C data structures (using libyaml)
+    - Syck # (dated) "C" YAML 1.0
+    - yaml-cpp # C++ YAML 1.2 implementation
   Crystal:
-  - YAML               # YAML 1.1 from the standard library
+    - YAML # YAML 1.1 from the standard library
   Ruby:
-  - psych              # libyaml wrapper (in Ruby core for 1.9.2)
-  - RbYaml             # YAML 1.1 (PyYAML Port)
-  - yaml4r             # YAML 1.0, standard library syck binding
+    - psych # libyaml wrapper (in Ruby core for 1.9.2)
+    - RbYaml # YAML 1.1 (PyYAML Port)
+    - yaml4r # YAML 1.0, standard library syck binding
   Python:
-  - PyYAML             # YAML 1.1, pure python and libyaml binding
-  - ruamel.yaml        # YAML 1.2, update of PyYAML with round-tripping of comments
-  - PySyck             # YAML 1.0, syck binding
+    - PyYAML # YAML 1.1, pure python and libyaml binding
+    - ruamel.yaml # YAML 1.2, update of PyYAML with round-tripping of comments
+    - PySyck # YAML 1.0, syck binding
   Java:
-  - JvYaml             # Java port of RbYaml
-  - SnakeYAML          # Java 5 / YAML 1.1
-  - YamlBeans          # To/from JavaBeans
-  - JYaml              # Original Java Implementation
-  - Camel              # YAML 1.2 for Java. A user-friendly OOP library.
+    - JvYaml # Java port of RbYaml
+    - SnakeYAML # Java 5 / YAML 1.1
+    - YamlBeans # To/from JavaBeans
+    - JYaml # Original Java Implementation
+    - Camel # YAML 1.2 for Java. A user-friendly OOP library.
   Perl Modules:
-  - YAML               # Pure Perl YAML Module
-  - YAML::XS           # Binding to libyaml
-  - YAML::Syck         # Binding to libsyck
-  - YAML::Tiny         # A small YAML subset module
-  - PlYaml             # Perl port of PyYAML
+    - YAML # Pure Perl YAML Module
+    - YAML::XS # Binding to libyaml
+    - YAML::Syck # Binding to libsyck
+    - YAML::Tiny # A small YAML subset module
+    - PlYaml # Perl port of PyYAML
   C#/.NET:
-  - YamlDotNet         # YAML 1.1 library with serialization support
-  - yaml-net           # YAML 1.1 library
-  - yatools.net        # (in-progress) YAML 1.1 implementation
+    - YamlDotNet # YAML 1.1 library with serialization support
+    - yaml-net # YAML 1.1 library
+    - yatools.net # (in-progress) YAML 1.1 implementation
   Golang:
-  - Go-yaml            # YAML support for the Go language.
-  - Go-gypsy           # Simplified YAML parser written in Go.
+    - Go-yaml # YAML support for the Go language.
+    - Go-gypsy # Simplified YAML parser written in Go.
   PHP:
-  - The Yaml Component # Symfony Yaml Component - Loads and dumps YAML files (YAML 1.2)  
-  - php-yaml           # libyaml bindings (YAML 1.1)
-  - syck               # syck bindings (YAML 1.0)
-  - spyc               # yaml loader/dumper (YAML 1.?)
+    - The Yaml Component # Symfony Yaml Component - Loads and dumps YAML files (YAML 1.2)
+    - php-yaml # libyaml bindings (YAML 1.1)
+    - syck # syck bindings (YAML 1.0)
+    - spyc # yaml loader/dumper (YAML 1.?)
   OCaml:
-  - ocaml-syck         # YAML 1.0 via syck bindings
+    - ocaml-syck # YAML 1.0 via syck bindings
   Javascript:
-  - JS-YAML            # Native PyYAML port to JavaScript.
-  - JS-YAML Online     # Browserified JS-YAML demo, to play with YAML in your browser.
+    - JS-YAML # Native PyYAML port to JavaScript.
+    - JS-YAML Online # Browserified JS-YAML demo, to play with YAML in your browser.
   Actionscript:
-  - as3yaml            # port of JvYAML (1.1)
+    - as3yaml # port of JvYAML (1.1)
   Haskell:
-  - HsYAML             # YAML 1.2 implementation in pure Haskell
-  - YamlReference      # Haskell 1.2 reference parser
+    - HsYAML # YAML 1.2 implementation in pure Haskell
+    - YamlReference # Haskell 1.2 reference parser
   Dart:
-  - yaml               # YAML package for Dart
+    - yaml # YAML package for Dart
   Rust:
-  - yaml-rust          # YAML 1.2 implementation in pure Rust
-  - serde-yaml         # YAML de/serialization of structs
+    - yaml-rust # YAML 1.2 implementation in pure Rust
+    - serde-yaml # YAML de/serialization of structs
   Nim:
-  - NimYAML            # YAML 1.2 implementation in pure Nim
+    - NimYAML # YAML 1.2 implementation in pure Nim
   Others:
-  - yamlvim (src)      # YAML dumper/emitter in pure vimscript
+    - yamlvim (src) # YAML dumper/emitter in pure vimscript
 
 Related Projects:
-  - Rx            # Multi-Language Schemata Tool for JSON/YAML
-  - Kwalify       # Ruby Schemata Tool for JSON/YAML
-  - yaml_vim      # vim syntax files for YAML
-  - yatools.net   # Visual Studio editor for YAML
-  - JSON          # Official JSON Website
-  - Pygments      # Python language Syntax Colorizer /w YAML support
+  - Rx # Multi-Language Schemata Tool for JSON/YAML
+  - Kwalify # Ruby Schemata Tool for JSON/YAML
+  - yaml_vim # vim syntax files for YAML
+  - yatools.net # Visual Studio editor for YAML
+  - JSON # Official JSON Website
+  - Pygments # Python language Syntax Colorizer /w YAML support
 
 News:
   - 20-NOV-2011 -- JS-YAML, a JavaScript YAML parser by Alexey Zapparov and Vitaly Puzrin.
@@ -113,17 +113,17 @@ News:
   - 08-FEB-2004 -- Slaven Rezic announced a new version of his Javascript binding
   - 29-JAN-2004 -- Ingy, Oren, and Clark spent 4 days hacking on the spec in Portland.
   - 10-OCT-2003 -- The Syck implementation with bindings for Ruby, Python,
-                   and PHP is now at version .41
+    and PHP is now at version .41
   - 26-APR-2003 -- Mike Orr has taken over the Pure Python development.
   - 26-APR-2003 -- Brian Ingerson has created a FIT platform for Wiki-like testing.
   - 24-JAN-2003 -- Updates to specification.
   - 25-JUL-2002 -- Both the Ruby and Python parsers have made significant progress.
-                   There is an article about YAML by Kendall Grant Clark at xml.com.
-                   There is also a draft XML binding.
+    There is an article about YAML by Kendall Grant Clark at xml.com.
+    There is also a draft XML binding.
   - 02-JUL-2002 -- Brian Ingerson will be giving a 45 minute presentation on YAML at the
-                   O'Reilly Open Source Conference in San Diego on July 24th 2002.
+    O'Reilly Open Source Conference in San Diego on July 24th 2002.
   - 01-FEB-2002 -- Brian's Perl implementation YAML.pm, has been updated with new documentation.
-                   Included in this release is YSH, a test shell for learning how YAML works.
+    Included in this release is YSH, a test shell for learning how YAML works.
   - 03-JAN-2002 -- YAML(tm) starts the new year with a new name YAML Ain't Markup Language.
   - 17-MAY-2001 -- YAML now has a mailing list at SourceForge.
   - 15-MAY-2001 -- YAML is started with a first pass specification.
