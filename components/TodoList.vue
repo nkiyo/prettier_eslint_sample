@@ -24,6 +24,7 @@ import BaseInputText from "./BaseInputText.vue";
 import TodoListItem from "./TodoListItem.vue";
 
 let nextTodoId = 1;
+const msg = "hoho";
 
 export default {
   components: {
@@ -32,7 +33,7 @@ export default {
   },
   data() {
     return {
-      newTodoText: "",
+      newTodoText: "", // hoge
       todos: [
         {
           id: nextTodoId++,
@@ -58,6 +59,9 @@ export default {
           text: trimmedText
         });
         this.newTodoText = "";
+      }
+      if (true) {
+        const x = 1;
       }
     },
     removeTodo(idToRemove) {
