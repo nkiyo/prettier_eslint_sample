@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "plugins": ["vue"],
+  "parserOptions": {},
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {},
+  "rules": {
+    "semi": "warn",
+    "prefer-const": "warn"
+  }
+}
